@@ -1,0 +1,94 @@
+\documentclass[12pt,journal,compsoc]{IEEEtran}
+
+\ifCLASSOPTIONcompsoc
+  % IEEE Computer Society needs nocompress option
+  % requires cite.sty v4.0 or later (November 2003)
+  % \usepackage[nocompress]{cite}
+\else
+  % normal IEEE
+  % \usepackage{cite}
+\fi
+
+\ifCLASSINFOpdf
+
+\else
+ 
+\fi
+
+
+% *** MATH PACKAGES ***
+%
+\usepackage[cmex10]{amsmath}
+\usepackage{amssymb}
+% \usepackage{algpseudocode}
+\usepackage{graphicx}
+\graphicspath{{./images/}}
+\DeclareGraphicsExtensions{.jpg,.png}
+\usepackage{listings}
+\lstset{
+basicstyle=\small\ttfamily,
+columns=flexible,
+breaklines=true
+}
+
+\begin{document}
+%
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+% Do not put math or special symbols in the title.
+\title{IAML - Assignment 2}
+\author{s1474146}
+
+% The paper headers
+\markboth{IAML - Assignment 2 - Due Oct 30, 2014}%
+{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Computer Society Journals}
+
+\maketitle
+
+%------------------------------------
+% Exploration of the dataset
+%------------------------------------
+
+\section{Exploration of the dataset}
+
+%------------------------------------
+% 1.a
+%------------------------------------
+\subsection*{1.a}
+Accuracy of classifier:
+\begin{itemize}
+\item SimpleLogistic: 64%
+\item Logistic: 66.8%
+\end{itemize}
+The difference between \texttt{SimpleLogistic} and \texttt{Logistic} are \textbf{XXX}
+
+Using \texttt{InfoGainAttributeEval}, \textbf{XXX - fill in the result}. The reason for different performance in those 2 classifiers are \textbf{XXX}
+
+
+%------------------------------------
+% 1.b
+%------------------------------------
+\subsection*{1.b}
+
+%------------------------------------
+% 1.c
+%------------------------------------
+\subsection*{1.c}
+
+%------------------------------------
+% 1.d
+%------------------------------------
+\subsection*{1.d}
+
+%------------------------------------
+% Mini Challenge
+%------------------------------------
+\section{Mini Challenge}
+
+*********************
+
+I discussed with s1474145
+% that's all folks
+\end{document}
+
+
