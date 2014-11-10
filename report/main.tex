@@ -1,21 +1,5 @@
 \documentclass[12pt,journal,compsoc]{IEEEtran}
 
-\ifCLASSOPTIONcompsoc
-  % IEEE Computer Society needs nocompress option
-  % requires cite.sty v4.0 or later (November 2003)
-  % \usepackage[nocompress]{cite}
-\else
-  % normal IEEE
-  % \usepackage{cite}
-\fi
-
-\ifCLASSINFOpdf
-
-\else
- 
-\fi
-
-
 % *** MATH PACKAGES ***
 %
 \usepackage[cmex10]{amsmath}
@@ -41,8 +25,6 @@ breaklines=true
 
 % The paper headers
 \markboth{IAML - Assignment 2 - Due Oct 30, 2014}%
-{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Computer Society Journals}
-
 \maketitle
 
 %------------------------------------
@@ -132,13 +114,21 @@ It \textbf{would/would not XXX} be easy to make use of the results in practice. 
 Validation set
 
 \begin{itemize}
-\item Look at validation set, the only class indicator variable is \texttt{is_person}.
+\item Look at validation set, the only class indicator variable is \texttt{is\_person}.
 
-\item Looking at the histogram of 500 dimensions, the most obvious pattern 
-\includegraphics[scale=0.5]{264_val}
+\item Looking at the histogram of 500 dimensions, this shape of distribution can be seen accross the majority of dimension. Most of the data is concentrated on the left-side, and the tail gets thinner toward the right side.
+
+\item For the majority of dimension, the value lies within range [0, 0.02]
+
+Training set
+\item For the majority of dimension, the value lies within range [0, 10]. And the distribution is heavily skewed toward the left side. There are only 1\% of the instance (around 20 instances) that have 
+\includegraphics[scale=•]{•}
+\includegraphics[scale=0.3]{264_val}
 \end{itemize}
 
-Preprocessing data for training set
+
+
+Preprocessing data for training set.
 
 % that's all folks
 \end{document}
