@@ -1,0 +1,121 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLogistic -I 0 -M 500 -H 50 -W 0.0
+Relation:     all_train-weka.filters.unsupervised.instance.RemoveWithValues-S0.5-C2-Lfirst-last-V-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    2093
+Attributes:   519
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class 0 :
+1.02 + 
+[dim15] * -116.48 +
+[dim17] * -51.59 +
+[dim18] * -31.87 +
+[dim35] * -84 +
+[dim38] * -25.28 +
+[dim51] * -113.08 +
+[dim60] * 55.43 +
+[dim80] * -54.95 +
+[dim81] * -55.7 +
+[dim152] * -74.49 +
+[dim160] * 42.96 +
+[dim161] * -60.07 +
+[dim168] * -20.24 +
+[dim171] * 40.2 +
+[dim231] * -59.59 +
+[dim244] * 23.43 +
+[dim283] * -86.65 +
+[dim292] * 31.56 +
+[dim294] * 29.79 +
+[dim343] * -47.87 +
+[dim360] * -191.2 +
+[dim412] * 47.05 +
+[dim423] * -87.43 +
+[dim443] * 35.45 +
+[is_aeroplane] * 1.29 +
+[is_bicycle] * -0.46 +
+[is_bird] * 1.69 +
+[is_boat] * 0.31 +
+[is_bottle] * 0.24 +
+[is_car] * 0.2  +
+[is_cat] * 1.65 +
+[is_chair] * 0.23 +
+[is_cow] * 0.88 +
+[is_dog] * 0.93 +
+[is_pottedplant] * 0.35 +
+[is_sheep] * 0.66 +
+[is_tvmonitor] * 0.31
+
+Class 1 :
+-1.02 + 
+[dim15] * 116.48 +
+[dim17] * 51.59 +
+[dim18] * 31.87 +
+[dim35] * 84 +
+[dim38] * 25.28 +
+[dim51] * 113.08 +
+[dim60] * -55.43 +
+[dim80] * 54.95 +
+[dim81] * 55.7 +
+[dim152] * 74.49 +
+[dim160] * -42.96 +
+[dim161] * 60.07 +
+[dim168] * 20.24 +
+[dim171] * -40.2 +
+[dim231] * 59.59 +
+[dim244] * -23.43 +
+[dim283] * 86.65 +
+[dim292] * -31.56 +
+[dim294] * -29.79 +
+[dim343] * 47.87 +
+[dim360] * 191.2 +
+[dim412] * -47.05 +
+[dim423] * 87.43 +
+[dim443] * -35.45 +
+[is_aeroplane] * -1.29 +
+[is_bicycle] * 0.46 +
+[is_bird] * -1.69 +
+[is_boat] * -0.31 +
+[is_bottle] * -0.24 +
+[is_car] * -0.2 +
+[is_cat] * -1.65 +
+[is_chair] * -0.23 +
+[is_cow] * -0.88 +
+[is_dog] * -0.93 +
+[is_pottedplant] * -0.35 +
+[is_sheep] * -0.66 +
+[is_tvmonitor] * -0.31
+
+
+Time taken to build model: 16.36 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances         851               76.46   %
+Incorrectly Classified Instances       262               23.54   %
+Kappa statistic                          0.5286
+Mean absolute error                      0.3054
+Root mean squared error                  0.3893
+Relative absolute error                 61.4148 %
+Root relative squared error             77.8823 %
+Total Number of Instances             1113     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.763     0.233      0.784     0.763     0.773      0.861    0
+                 0.767     0.237      0.744     0.767     0.755      0.861    1
+Weighted Avg.    0.765     0.235      0.765     0.765     0.765      0.861
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 447 139 |   a = 0
+ 123 404 |   b = 1
+

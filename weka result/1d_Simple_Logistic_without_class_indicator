@@ -1,0 +1,115 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLogistic -I 0 -M 500 -H 50 -W 0.0
+Relation:     all_train-weka.filters.unsupervised.instance.RemoveWithValues-S0.5-C2-Lfirst-last-V-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R501-514,516-519
+Instances:    2093
+Attributes:   501
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Class 0 :
+1.34 + 
+[dim4] * -118.95 +
+[dim35] * -45.49 +
+[dim38] * -35 +
+[dim51] * -112.11 +
+[dim53] * 52.21 +
+[dim57] * -32.85 +
+[dim68] * 28.97 +
+[dim80] * -42.25 +
+[dim81] * -34.86 +
+[dim126] * 24.09 +
+[dim137] * 11.22 +
+[dim145] * -39.54 +
+[dim152] * -85.41 +
+[dim160] * 33.27 +
+[dim161] * -44.55 +
+[dim162] * 27.02 +
+[dim168] * -16.87 +
+[dim171] * 65.69 +
+[dim188] * 42.61 +
+[dim222] * -43.59 +
+[dim252] * -55.94 +
+[dim294] * 24.46 +
+[dim322] * -87.4 +
+[dim330] * -99.84 +
+[dim341] * 35.57 +
+[dim343] * -61.62 +
+[dim348] * -35.97 +
+[dim360] * -125.2 +
+[dim407] * 31.7 +
+[dim423] * -109.09 +
+[dim443] * 28.73 +
+[dim450] * 39.45 +
+[dim462] * -52.22 +
+[dim485] * -48.13
+
+Class 1 :
+-1.34 + 
+[dim4] * 118.95 +
+[dim35] * 45.49 +
+[dim38] * 35 +
+[dim51] * 112.11 +
+[dim53] * -52.21 +
+[dim57] * 32.85 +
+[dim68] * -28.97 +
+[dim80] * 42.25 +
+[dim81] * 34.86 +
+[dim126] * -24.09 +
+[dim137] * -11.22 +
+[dim145] * 39.54 +
+[dim152] * 85.41 +
+[dim160] * -33.27 +
+[dim161] * 44.55 +
+[dim162] * -27.02 +
+[dim168] * 16.87 +
+[dim171] * -65.69 +
+[dim188] * -42.61 +
+[dim222] * 43.59 +
+[dim252] * 55.94 +
+[dim294] * -24.46 +
+[dim322] * 87.4 +
+[dim330] * 99.84 +
+[dim341] * -35.57 +
+[dim343] * 61.62 +
+[dim348] * 35.97 +
+[dim360] * 125.2 +
+[dim407] * -31.7 +
+[dim423] * 109.09 +
+[dim443] * -28.73 +
+[dim450] * -39.45 +
+[dim462] * 52.22 +
+[dim485] * 48.13
+
+
+Time taken to build model: 24.27 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances         768               69.0027 %
+Incorrectly Classified Instances       345               30.9973 %
+Kappa statistic                          0.3765
+Mean absolute error                      0.3841
+Root mean squared error                  0.4533
+Relative absolute error                 77.2439 %
+Root relative squared error             90.6723 %
+Total Number of Instances             1113     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.732     0.357      0.695     0.732     0.713      0.748    0
+                 0.643     0.268      0.683     0.643     0.663      0.748    1
+Weighted Avg.    0.69      0.315      0.69      0.69      0.689      0.748
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 429 157 |   a = 0
+ 188 339 |   b = 1
+
